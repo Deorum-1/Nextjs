@@ -1,9 +1,8 @@
-import React from 'react'
+import Hello from "@/components/Hello/page";
 
-const page = () => {
-  return (
-    <div>Welcome to Nextjs</div>
-  )
-}
+const Home = () => {
+  console.log("What type of component is this?");
+  return <div>Welcome to Nextjs</div>;
+};
 
-export default page
+export default Home;
